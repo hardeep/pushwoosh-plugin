@@ -99,10 +99,10 @@
 		<config-file target="res/xml/config.xml" parent="/cordova">
             <access origin="https://cp.pushwoosh.com" subdomains="true" />
         </config-file>
+
+		<source-file src="src/android/src/com/pushwoosh/plugin/pushnotifications/PushNotifications.java"
+		        target-dir="src/com/pushwoosh/plugin/pushnotifications/PushNotification.java" />
 		
-		<source-file src="src/android/src/com/pushwoosh/test/plugin/pushnotifications/PushNotifications.java"
-		        target-dir="src/com/pushwoosh/test/plugin/pushnotifications" />
-				
 		<source-file src="src/android/src/com/google/android/gcm/GCMBaseIntentService.java"
 		        target-dir="src/com/google/android/gcm" />
 

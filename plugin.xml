@@ -96,7 +96,7 @@
 			value="com.pushwoosh.plugin.pushnotifications.PushNotifications" onload="true"/>
         </config-file>
 
-		<config-file target="res/xml/cordova.xml" parent="/cordova">
+		<config-file target="res/xml/config.xml" parent="/cordova">
             <access origin="https://cp.pushwoosh.com" subdomains="true" />
         </config-file>
 		

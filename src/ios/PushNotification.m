@@ -11,7 +11,7 @@
 // MIT Licensed
 
 #import "PushNotification.h"
-#import <Cordova/JSONKit.h>
+#import <Cordova/CDVJSON.h>
 #import <CoreLocation/CoreLocation.h>
 #import "AppDelegate.h"
 

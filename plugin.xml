@@ -226,8 +226,10 @@
     </platform>
     <!-- ios -->
     <platform name="ios">
-        <plugins-plist key="PushNotification"
-                    string="PushNotification" />
+        <config-file target="config.xml" parent="plugins">
+            <plugin name="PushNotification"
+            value="PushNotifications" onload="true"/>
+        </config-file>
 
         <access origin="*.pushwoosh.com" />
 

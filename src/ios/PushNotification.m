@@ -148,7 +148,7 @@
 		}
 	}
 	
-	NSString *jsonString = [pushNotification cdvjk_JSONString];
+	NSString *jsonString = [pushNotification JSONString];
 	NSString *jsStatement = [NSString stringWithFormat:@"window.plugins.pushNotification.notificationCallback(%@);", jsonString];
 	[self writeJavascript:[NSString stringWithFormat:@"setTimeout(function() { %@; }, 0);", jsStatement]];
 }

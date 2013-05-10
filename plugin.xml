@@ -228,7 +228,7 @@
     <platform name="ios">
         <config-file target="config.xml" parent="plugins">
             <plugin name="PushNotification"
-            value="PushNotifications" onload="true"/>
+            value="PushNotification" onload="true"/>
         </config-file>
 
         <access origin="*.pushwoosh.com" />
